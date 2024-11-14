@@ -7,12 +7,13 @@
 </head>
 <body>
     <p id="myParagraph">This is a paragraph.</p>
-</body>
-<script>
-    function changeParagraphText() {
+    <button onclick="changeParagraphText()">Change Text</button>
+
+    <script>
+        function changeParagraphText() {
             const paragraph = document.getElementById("myParagraph");
             paragraph.textContent = "The paragraph text has been changed.";
         }
-        changeParagraphText();
-</script>
+    </script>
+</body>
 </html>
